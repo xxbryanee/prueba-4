@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>mi primer sitio web con tailiwind</title>
+  </head>
+  <body>
+    <div class="container mx-auto mt-5"> <!--container = centrar el contenido; mx-auto = margen a los lados; mt-5 = margen arriba de 5-->
+      <h1>Hola Mundo con tailwindcss</h1> <!--todos en tailwind tiene el mismo tamaño predeterminado-->
+      <!--todos en tailwind tiene el mismo tamaño predeterminado-->
+      <h2>Hola Mundo con tailwindcss</h2>
+      <h3>Hola Mundo con tailwindcss</h3>
+
+      <button
+        class="bg-red-500 sm:bg-orange-400 lg:bg-blue -500 hover:bg-red-200 text-white font-bold py-2 px-4 rounded" 
+      > <!--bg-red-500 = boton rojo; sm:bg-orange-400 = en el tamaño 400 e boton se covierte naranja; hover:bg-red-200 = opacidad; text-white=letra blanco;
+       fond-bold=texto en negrita; py-2 =pading arriba y abajo va tener 2; -->
+        mi boton
+      </button>
+      
+
+      <h1 class="mt-5 text-green-500 text-5xl text-center">Es es un H1</h1><!--mt-5 = margen arriba de 5; text-green-500 = color verde; text-5xl = tamaño de texto; text-center = centrar texto-->
+      <h2 class="text">Es es un H2</h2>
+      <h3 class="uppercase">Es es un H3</h3> <!--uppercase = texto en mayusculas-->
+      <h4 class="w-48 rounded-lg bg-pink-500 text-white text-center py-10 px-5 m-10 text-xl">Es es un H4</h4> <!--w-48 = ancho de 48; rounded-lg = esquinas redondeadas; bg-pink-500 = color rosa;
+       text-white = color de texto blanco; text-center = centrar texto; py-10 = padding arriba y abajo de 10; px-5 = padding de izquierda y derecha de 5;
+        m-10 = margen de 10; text-xl = tamaño de texto-->
+      <h5 class="shadow-md">Es es un H5</h5> <!--shadow-md = sombra-->
+      <h6>Es es un H6</h6>
+      <div class="mt-5 p-10 border"> <!--mt-5 = margen arriba de 5; p-10 = padding de 10; border = borde-->
+    
+        <p class="text-xl sm:text-xs text-right"> <!--text-xl = tamaño de texto; sm:text-xs = tamaño de texto en 400; text-right = alineacion a la derecha-->
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt doloribus 
+            molestiae excepturi repudiandae non sed distinctio 
+            labore molestias animi quis corrupti porro veniam, tenetur assumenda ex 
+            odit alias aut sapiente.
+        </p>
+    </div>
+    </div>
+    
+  </body>
+</html>
