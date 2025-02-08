@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="container mx-auto mt-5 text-center"> <!--mx auto = posicionamos en la parte central; mt-5= margin top 5 ; text-center= texto centrado-->
+    <div class="grid grid-cols-5 gap-2 my-2"> <!-- Creamos una cuadrícula con 5 columnas,
+        con un espacio entre los elementos de 2 y un margen vertical de 2 -->
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">A</div>
+        
+        
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 my-2"> <!-- Creamos una cuadrícula con 1 columna en pantallas pequeñas y 3 columnas en pantallas medianas, 
+        con un espacio entre los elementos de 2 y un margen vertical de 2 -->
+        <div class="bg-blue-400">A</div>
+        <div class="bg-blue-400">A</div>
+        <div class="bg-blue-400">A</div>
+        <div class="bg-blue-400">A</div>
+        <div class="bg-blue-400">A</div>
+        <div class="bg-blue-400">A</div>
+        <div class="bg-blue-400">A</div>
+    </div>
+    <div class="grid grid-cols-4 gap-2 my-2"> <!-- Creamos una cuadrícula con 4 columnas,
+        con un espacio entre los elementos de 2 y un margen vertical de 2 -->
+        <div class="bg-pink-400 col-span-2">B</div> <!-- Creamos una celda que ocupa 2 columnas -->
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400 col-span-4">C</div> <!-- Creamos una celda que ocupa 4 columnas -->
+  
+    </div>
+</body>
+</html>
