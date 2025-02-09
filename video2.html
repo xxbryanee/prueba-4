@@ -38,5 +38,51 @@
         <div class="bg-pink-400 col-span-4">C</div> <!-- Creamos una celda que ocupa 4 columnas -->
   
     </div>
+    <!-- Creamos una cuadrícula con 12 columnas,
+        con un espacio entre los elementos de 4 -->
+    <div class="grid grid-cols-12 gap-4 "> 
+        <div class="bg-orange-500 ">A</div>
+        <div class="bg-orange-500 ">A</div>
+        <div class="bg-orange-500 ">A</div>
+        <div class="bg-orange-500 ">A</div>
+        <div class="bg-orange-500 ">A</div>
+        <div class="bg-orange-500 ">A</div>
+        <div class="bg-orange-500 ">A</div>
+        <div class="bg-orange-500 ">A</div>
+        <div class="bg-orange-500 ">A</div>
+        <div class="bg-orange-500 ">A</div>
+        <div class="bg-orange-500 ">A</div>
+        <div class="bg-orange-500 ">A</div>
+    </div>
+    <!-- Creamos una cuadrícula con 12 columnas,
+        con un espacio entre los elementos de 4 y un margen superior de 5 -->
+    <div class="grid grid-cols-12 gap-4 mt-5"> 
+        <div class="bg-orange-500 col-span-4">A</div><!-- Creamos una celda que ocupa 4 columnas -->
+        <div class="bg-orange-500 col-span-4">A</div>
+        <div class="bg-orange-500 col-span-4">A</div>
+    </div>
+    <!-- Creamos una cuadrícula con 4 columnas,
+        con un espacio entre los elementos de 4 y un margen superior de 2 -->
+    <div class="grid grid-cols-4 gap-4 mt-2"> 
+        <div class="bg-pink-500 col-start-4">A</div> <!-- Creamos una celda que inicia en la columna 4 -->
+        <div class="bg-pink-500 col-end-5">C</div> <!-- Creamos una celda que termina en la columna 5 -->
+        <div class="bg-pink-500">A</div><!-- Creamos una celda que inicia en la columna 4 y termina en la columna 5 -->
+        <div class="bg-pink-500">A</div><!-- Creamos una celda que inicia en la columna 4 y termina en la columna 5 -->
+    </div>
+    <div class="grid grid-rows-4 gap-4 "> <!-- Creamos una cuadrícula con 4 filas y 4 columnas,-->
+        <div class="bg-orange-500 row-span-2">B</div>
+        <div class="bg-orange-500">A</div>
+        <div class="bg-orange-500">A</div>
+        <div class="bg-orange-500">A</div>
+    </div>
+    <!-- Creamos una celda que ocupa 1 columna en pantallas pequeñas y 2 columnas en pantallas medianas -->
+    <div class="grid grid-cols-1 sm:grid-cols-4 grid-rows-1 sm:grid-rows-2 gap-4 ">
+        <div class="bg-blue-500">A</div>
+        <div class="bg-blue-500">A</div>
+        <!-- Creamos una celda que ocupa 1 columna en pantallas pequeñas y 2 columnas en pantallas medianas -->
+        <div class="bg-blue-500  col-span-1 sm:col-span-2 row-span-1 sm:row-span-2">B</div>
+        <div class="bg-blue-500">A</div>
+        <div class="bg-blue-500">A</div>
+    </div>
 </body>
 </html>
